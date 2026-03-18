@@ -17,7 +17,7 @@ from controlador.main_controller import MainController
 class App(ctk.CTk):
     def __init__(self):
         super().__init__()
-        self.title("Sistema Quién Sigue - Gym Management")
+        self.title("Sistema Quién Sigue - BarberShop")
         self.geometry("1100x650")
         
         # Configuración visual

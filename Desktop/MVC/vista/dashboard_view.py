@@ -16,7 +16,8 @@ class DashboardView(ctk.CTkFrame):
         # Nota: Guardamos las referencias por si necesitamos cambiar su color después
         self.btn_clientes = self._crear_boton_menu("Clientes", "clientes")
         # Cambia esta línea:
-        self.btn_visitas = self._crear_boton_menu("Registrar Visitas", "registrar_visitas") # <-- Agregamos 'registrar_'        self.btn_usuarios = self._crear_boton_menu("Usuarios", "usuarios")
+        self.btn_visitas = self._crear_boton_menu("Registrar Visitas", "registrar_visitas") # <-- Agregamos 'registrar_'        
+        self.btn_usuarios = self._crear_boton_menu("Usuarios", "usuarios")
         self.btn_notif = self._crear_boton_menu("Notificaciones", "notificaciones")
 
         # Botón Salir (Abajo)
